@@ -1,0 +1,61 @@
+/* Desplazamiento suave al hacer clic en el menú */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Encabezado con fondo azul profundo (combinando con el ojo turco) */
+.encabezado {
+    background: linear-gradient(135deg, #0d3b66, #1d6fa5);
+    padding: 80px 20px;
+}
+
+/* Foto de perfil (Ojo turco) redondeada y con borde */
+.foto-perfil {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Padding obligatorio para separar los bordes de cada sección */
+.seccion-padding {
+    padding: 70px 0;
+}
+
+/* Línea divisoria debajo de los títulos */
+.divisor {
+    width: 80px;
+    height: 4px;
+    background-color: #1d6fa5;
+    border: none;
+    margin: 15px auto;
+    opacity: 1;
+}
+
+/* Estilo de las imágenes y tarjetas del Portfolio */
+.tarjeta-proyecto {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta-proyecto:hover {
+    transform: translateY(-5px);
+}
+
+.img-proyecto {
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+/* Efecto hover en los íconos del footer */
+.redes-sociales a {
+    transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+    color: #5bc0eb !important;
+}
